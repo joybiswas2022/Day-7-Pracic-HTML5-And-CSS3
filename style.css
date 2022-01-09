@@ -1,0 +1,16 @@
+.highlight {
+    background-color:#ee3;
+  }
+
+
+  /* HTML table  */
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 0 10px;
+}
+/* HTML table  */

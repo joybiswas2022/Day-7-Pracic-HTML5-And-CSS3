@@ -13,10 +13,30 @@
 
 <body>
 
+    <!--This is a commentShort-cut  ul>li*5>a> -->
     <header>
         <nav>
             <ul>
-                <li>Your menu</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#html5">HTML5
+                        <ul class="dropdown">
+                            <!--This is a commentShort-cut  li*4>a{link-$}-->
+                            <li><a href="#Semantic">Semantic Elements</a></li>
+                            <li><a href="#table">Table</a></li>
+                            <li><a href="#form">Form</a></li>
+                            <li><a href="#audio-video">audio-video</a></li>
+                        </ul>
+                    </a></li>
+                <li><a href="#">Form</a></li>
+                <li><a href="../explore-html-5/audio-video.html">HTML-5</a></li>
+                <li><a href="../mission-2022-main/index.html">MISSION 2022
+                        <ul class="dropdown">
+                            <li><a href="">link-1</a></li>
+                            <li><a href="">link-2</a></li>
+                            <li><a href="">link-3</a></li>
+                            <li><a href="">link-4</a></li>
+                        </ul>
+                    </a></li>
             </ul>
         </nav>
     </header>
@@ -89,7 +109,7 @@
 
         <!-- HTML table basics start -->
         <h2>HTML table basics</h2>
-        <table>
+        <table id="table">
             <thead>
                 <tr>
                     <th>No.</th>
@@ -131,7 +151,7 @@
 
 
         <!-- Semantic Elements in HTML start -->
-        <h2 style="background-color: tomato;">Semantic Elements in HTML </h2>
+        <h2 id="Semantic" style="background-color: tomato;">Semantic Elements in HTML </h2>
         <img src="images/img_sem_elements.gif" alt="">
 
         <h3>Semantic elements</h3>
@@ -167,8 +187,53 @@
 
         <!-- Semantic Elements in HTML ends -->
 
+
+        <!-- Form Start -->
+        <h1>Make A Form</h1>
+        <form action="" id="form">
+            <p>Name: <input type="text" name="" placeholder="Enter you name" id=""> </p>
+            <p>Email: <input type="text" name="" placeholder="Enter you email" id=""> </p>
+            <fieldset>
+                <legend>Select your Item</legend>
+                <p>
+                    <label for="phone">
+                        <input type="radio" name="item" id="phone">Phone
+                    </label>
+                </p>
+                <p>
+                    <label for="laptop">
+                        <input type="radio" name="item" id="laptop">Laptop
+                    </label>
+                </p>
+                <p>
+                    <label for="Bike">
+                        <input type="radio" name="item" id="Bike">Bike
+                    </label>
+                </p>
+            </fieldset>
+
+            <!--This is a comment for Surtcut=    p*3>label>input:checkbox-->
+            <fieldset>
+                <legend>Select your More Item</legend>
+                <p><label for="port-1"><input type="checkbox" name="more Item" id="port-1"> port-1</label></p>
+                <p><label for="port-2"><input type="checkbox" name="more Item" id="port-2">port-2</label></p>
+                <p><label for="port-3"><input type="checkbox" name="more Item" id="port-3">port-3</label></p>
+
+            </fieldset>
+
+            <p>Special Item</p>
+            <br>
+            <textarea name="instruction" id="" cols="30" rows="10"></textarea>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+        <!-- Form Start -->
+
+
+
+
         <!-- video -->
-        <h1>Exploring HTML5</h1>
+        <h1 id="audio-video">Exploring HTML5</h1>
         <audio src="images/music.mp3" controls></audio>
 
         <video src="images/dog-video.mp4" width="200" controls></video>
@@ -180,7 +245,21 @@
             allowfullscreen></iframe>
 
 
+
+
     </section>
+
+
+
+    <!-- CSS3 Project Start -->
+
+    <section>
+
+
+    </section>
+
+
+    <!-- CSS3 Project Start -->
 
 
 

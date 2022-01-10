@@ -6,8 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML5 & CSS3</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@200;400;600&display=swap"
+        rel="stylesheet">
+    <!-- CSS Files -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css3.css">
+    <!-- Favicon Files -->
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <!-- FontAwesome Link -->
+    <script src="https://kit.fontawesome.com/617b1f83f2.js" crossorigin="anonymous"></script>
+
 
 </head>
 
@@ -17,8 +28,8 @@
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#html5">HTML5
+                <li><a href="#Element">Element</a></li>
+                <li><a href="#">HTML5
                         <ul class="dropdown">
                             <!--This is a commentShort-cut  li*4>a{link-$}-->
                             <li><a href="#Semantic">Semantic Elements</a></li>
@@ -27,21 +38,31 @@
                             <li><a href="#audio-video">audio-video</a></li>
                         </ul>
                     </a></li>
-                <li><a href="#">Form</a></li>
-                <li><a href="../explore-html-5/audio-video.html">HTML-5</a></li>
-                <li><a href="../mission-2022-main/index.html">MISSION 2022
+                <li><a href="#">CSS3
                         <ul class="dropdown">
-                            <li><a href="">link-1</a></li>
-                            <li><a href="">link-2</a></li>
-                            <li><a href="">link-3</a></li>
-                            <li><a href="">link-4</a></li>
+                            <li><a href="#float">float</a></li>
+                            <li><a href="#icon">icon</a></li>
+                            <li><a href="#overflow">overflow</a></li>
+                            <li><a href="#visibilty">Visibilty</a></li>
                         </ul>
+
+                    </a></li>
+                <li><a href="#">Extra File
+                        <ul class="dropdown">
+                            <li><a href="Extra File/animation.html" target="blank">Animation</a></li>
+                            <li><a href="Extra File/cricket.html" target="blank">Cricket</a></li>
+                            <li><a href="Extra File/transform.html" target="blank">Tranform</a></li>
+                            <li><a href="Extra File/transition.html" target="blank">Transition</a></li>
+                        </ul>
+                    </a></li>
+                <li><a href="mission-2022-main/index.html">MISSION 2022
+
                     </a></li>
             </ul>
         </nav>
     </header>
 
-    <section>
+    <section id="Element">
 
         <h2>Inline Element:</h2>
         <!-- Inline element -->
@@ -255,11 +276,214 @@
 
     <section>
 
+        <!-- float Area -->
+        <div id="float" class="container">
+            <h1>float Area</h1>
+
+            <!-- .box*4>p>lorem30 -->
+            <div class="box">
+                <h2>One</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit atque, enim autem quia, assumenda amet
+                    repudiandae cumque dolores facere aliquam rem magnam reprehenderit? Ducimus maiores, molestiae
+                    recusandae reprehenderit temporibus ab?</p>
+            </div>
+            <div class="box">
+                <h2>Two</h2>
+                <p>Quos necessitatibus ab sunt aspernatur inventore tempora delectus voluptatum consectetur quaerat,
+                    nobis
+                    molestiae numquam, at, molestias dolor laborum quas. Quidem ipsa cupiditate voluptatem nam dicta
+                    expedita, deserunt saepe iure repellendus.</p>
+            </div>
+            <div class="box">
+                <h2>Three</h2>
+                <p>Incidunt dicta unde perspiciatis tenetur dolorem ipsum amet illum magnam excepturi soluta, sint ad
+                    eos,
+                    non harum reiciendis, vero maiores. Dolor velit iste quia consequuntur deleniti pariatur dolores est
+                    consequatur.</p>
+            </div>
+            <div class="box">
+                <h2>Four</h2>
+                <p>Minima, temporibus saepe odit est id, voluptate optio blanditiis nostrum doloribus praesentium ipsam
+                    architecto deserunt! Odio recusandae quis placeat dolorem ut, voluptatem magni quasi earum, facilis
+                    non
+                    beatae labore consequuntur?</p>
+            </div>
+
+        </div>
+        <!-- float Area Ends -->
+
+        <!-- Icon Area  start-->
+        <div id="icon" class="container">
+            <h1>FontAwesome Icon</h1>
+
+            <a href="www.google.com" target="blank">
+                <i class="fas fa-umbrella-beach"></i>
+            </a>
+            <a href="www.google.com" target="blank">
+                <i class="fas fa-umbrella-beach"></i>
+            </a>
+            <a href="www.google.com" target="blank">
+                <i class="fas fa-umbrella-beach"></i>
+            </a>
+            <br>
+            <br>
+            <a href="www.google.com" target="blank">
+                <i class="fas fa-umbrella-beach"></i>
+            </a>
+            <a href="www.google.com" target="blank">
+                <i class="fas fa-umbrella-beach"></i>
+            </a>
+            <a href="www.google.com" target="blank">
+                <i class="fas fa-umbrella-beach"></i>
+            </a>
+            <a href="www.google.com" target="blank">
+                <i class="fas fa-umbrella-beach"></i>
+            </a>
+
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit similique recusandae, cum ipsam distinctio
+                architecto facilis soluta ratione veniam exercitationem ad repellendus corrupti nesciunt numquam
+                laboriosam
+                fugit quisquam velit, consequuntur quidem mollitia dolor id sequi? Perspiciatis quam illum, alias
+                impedit rerum
+                eaque laborum, reprehenderit iure dolorum, nihil quis ea nesciunt officia! Accusantium in, ipsum
+                repellendus a
+                magni quaerat rem iste enim ex odio earum esse commodi corrupti voluptas neque quisquam nostrum ipsam
+                saepe
+                vitae odit fugit tempore vero quos veniam? Doloribus aperiam magnam ea, sed molestiae, inventore numquam
+                iste,
+                tenetur ipsum explicabo quas blanditiis culpa commodi dolore repudiandae laboriosam distinctio.
+
+            <p>
+                <br>
+                <br>
+                <br>
+                <img src="bike.jpg" alt="">
+
+        </div>
+        <!-- Icon Area  End-->
+
+
+
+
+        <!-- overflow-area  Start-->
+        <div id="overflow" class="overflow-area">
+
+            <h1>overflow-area</h1>
+
+            <div class="mega-box">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia architecto, obcaecati vitae ratione
+                    reiciendis
+                    facere eum. Ea recusandae quia sunt fugit fuga reiciendis hic illo inventore maiores dignissimos
+                    officia
+                    voluptates laboriosam ab quam consectetur quas in eaque, iste autem? Nisi sapiente cumque id magni
+                    eos!
+                    Necessitatibus, officiis fuga, placeat atque consectetur sint porro sit provident culpa cumque
+                    voluptatem
+                    quos voluptatum nam facilis! Minima at magni quidem exercitationem, enim veniam voluptate distinctio
+                    temporibus delectus, iusto ratione magnam laudantium adipisci? Expedita at, nobis rem illo sunt
+                    illum
+                    facilis! Quos rerum voluptates placeat accusamus quidem error excepturi quod? Inventore placeat
+                    exercitationem nesciunt quia atque, provident dolore sapiente incidunt, veniam vel id, consequuntur
+                    facilis
+                    commodi tempora rem architecto ipsam. Dicta officia quas hic quos officiis unde distinctio possimus
+                    ratione
+                    ullam obcaecati perspiciatis cumque accusamus et eaque eligendi, modi error ut dolore provident,
+                    tempora
+                    sed
+                    dolor totam. Enim aspernatur, doloremque ducimus voluptas ipsum voluptate ullam, cupiditate nihil
+                    sunt,
+                    quam
+                    adipisci maxime fuga mollitia esse? Inventore quaerat qui libero, expedita repellat beatae error
+                    eveniet
+                    aperiam eos ipsa dolorem molestiae, iusto dicta consequatur iste animi itaque magnam veritatis harum
+                    temporibus sunt odio? Perspiciatis laboriosam cupiditate corporis voluptatem velit ut sapiente. Quae
+                    expedita adipisci nulla accusantium recusandae itaque inventore ad numquam quaerat illum. Iure
+                    architecto
+                    repellendus ullam cupiditate vitae magnam recusandae eum nulla dolore rerum maiores, incidunt optio
+                    quaerat
+                    itaque sit inventore doloremque nobis non nesciunt. Ipsum tempora in eum, nihil reprehenderit
+                    similique
+                    id
+                    aperiam. Quam, repellendus? Sint tempora cum odio nobis cumque consequuntur soluta voluptatum! Esse
+                    magni,
+                    architecto, delectus aspernatur praesentium tempora mollitia dolore adipisci sint totam cupiditate
+                    quaerat
+                    culpa molestiae earum sed omnis atque optio a. Maiores, nostrum. Quas quae tempore laborum nobis
+                    exercitationem ipsam mollitia dicta sint quibusdam accusamus sit libero ut, similique asperiores
+                    inventore
+                    veritatis architecto fuga unde nam perspiciatis aliquam expedita aut repellat! Commodi ducimus
+                    repudiandae
+                    voluptatibus eum autem tenetur, nobis aspernatur reprehenderit aliquam alias pariatur adipisci
+                    dignissimos,
+                    eligendi aut optio beatae a maiores sit. Cupiditate est accusantium dicta! Esse natus aut iste
+                    deleniti
+                    aspernatur modi nisi necessitatibus, laborum doloremque? Eum reiciendis at vitae inventore,
+                    molestiae
+                    nobis
+                    recusandae officia dolorum, magni neque accusantium alias maxime blanditiis sunt atque iure quam,
+                    tenetur
+                    odit ab delectus dolores id suscipit? Libero neque accusantium optio totam, laboriosam cum expedita
+                    aspernatur in itaque officiis eligendi illo laborum, magnam nostrum eveniet quis sapiente corrupti
+                    dicta
+                    temporibus voluptatum, pariatur exercitationem qui aliquid? Assumenda ea, amet repellendus quidem
+                    illo
+                    enim
+                    consequuntur.</p>
+
+            </div>
+            <div class="mango-pepole">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, ab voluptatum ex voluptatibus soluta
+                    veritatis. Ea consequatur aspernatur accusantium, rem quis voluptate? Eveniet ullam magnam
+                    voluptates,
+                    fuga
+                    est cupiditate totam eum amet. Aspernatur animi similique perferendis iste culpa? Minima vero fugiat
+                    doloremque veniam similique voluptatibus, dolor fuga, molestiae eius ut error amet eum officiis
+                    exercitationem! Facilis cupiditate tempora maiores consectetur quod harum fugit, numquam aperiam
+                    sunt
+                    sapiente cumque quisquam sint aspernatur iusto impedit dolorum incidunt aut ratione natus, magnam
+                    culpa
+                    ipsa? Illo in, minus ducimus dolore quam iusto! Dolor qui suscipit est voluptates inventore!
+                    Provident
+                    neque
+                    placeat dolor expedita magni corrupti accusamus, commodi fuga similique est quasi nesciunt eligendi
+                    iusto
+                    officiis ea delectus sapiente quia vitae ratione velit officia aliquam. Inventore pariatur eius ad
+                    accusamus
+                    est quis laudantium commodi harum, sapiente ipsa aperiam temporibus labore, quas animi alias
+                    ducimus.
+                    Cupiditate ea molestiae quod, temporibus numquam rem facere obcaecati quos dicta consectetur! Ipsam
+                    ad
+                    tempora doloribus nisi ab sunt fugiat atque, nobis rerum vel, dignissimos officia expedita
+                    voluptatum
+                    minima
+                    temporibus laboriosam labore harum voluptate magnam iure consectetur, quas dicta! Dolore quidem quis
+                    numquam
+                    fugit rerum ipsa sunt, laudantium cum expedita et tempore, consectetur illum repellat vitae
+                    cupiditate
+                    ad
+                    deserunt. Labore, sit.</p>
+            </div>
+        </div>
+        <!-- overflow-area  Ends-->
+
+        <!-- visibilty-area  Start-->
+        <div id="visibilty" class="visibilty-area">
+
+            <!-- .box#box-$*4 -->
+
+            <div class="box-2" id="box-1"></div>
+            <div class="box-2" id="box-2"></div>
+            <div class="box-2" id="box-3"></div>
+            <div class="box-2" id="box-4"></div>
+        </div>
+        <!-- visibilty-area  Ends-->
+
 
     </section>
 
 
-    <!-- CSS3 Project Start -->
+    <!-- CSS3 Project End -->
 
 
 

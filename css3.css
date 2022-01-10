@@ -1,0 +1,70 @@
+ 
+ /* float area start */
+
+ /* .container {
+            display: flex;
+        } */
+
+        .box {
+            cursor: pointer;
+            float: left;
+            width: 150px;
+            max-height: 400px;
+            padding: 10px;
+            margin: 10px;
+            background-color: cyan;
+            display: inline;
+        }
+
+    #float{
+        display: inline-block;
+        background-color: blueviolet;
+    }
+
+ /* float area Ends */
+
+ /* overflow-area  Start */
+  .mega-box {
+    width: 500px;
+    height: 300px;
+    border: 5px solid red;
+    overflow-y: scroll;
+}
+
+.mango-pepole {
+    width: 500px;
+    height: 200px;
+    border: 5px solid rgb(0, 153, 255);
+    overflow: scroll;
+    overflow-x: hidden;
+}
+ /* overflow-area  Ends */
+
+
+ /* visibilty-area  Start */
+ .box-2{
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+}
+
+#box-1 {
+    background-color: khaki;
+}
+
+#box-2 {
+    background-color: firebrick;
+}
+
+#box-3 {
+    background-color: gold;
+    /* visibility: hidden; */
+    display: none;
+}
+
+#box-4 {
+    background-color: violet;
+}
+/* visibilty-area  Ends */
+
+
